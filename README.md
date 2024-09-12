@@ -1,13 +1,31 @@
+## Table of Contents
+1. [Credit Risk Prediction Model for Loan Default Classification](#Credit_Risk_Prediction_Model_for_Loan_Default_Classification)
+2. [Tools and Frameworks](#tools-and-frameworks)
+3. [Data Source](#data-source)
+4. [Dataset Summary](#dataset-summary)
+5. [Dataset Cleaning & Preprocessing](#dataset-cleaning--preprocessing)
+6. [Visualizations](#visualizations)
+    - [Boxplot Distribution of Numerical Columns](#boxplot-distribution-of-numerical-columns)
+    - [Categorical Columns](#categorical-columns)
+    - [Target Feature Distribution](#target-feature-distribution)
+7. [Modeling](#modeling)
+    - [Model Evaluation](#model-evaluation)
+    - [Model Improvement](#model-improvement)
+    - [Cost Matrices](#cost-matrices-of-model-before-and-after-optimization)
+8. [Results](#results)
+    - [Classification Report](#classification-report)
+9. [Future Work](#future-work)
+   
 # Credit Risk Prediction Model for Loan Default Classification
 In the financial industry, risk management is crucial to maintaining profitability. One of the most prominent issues in this space is loan defaults. This project aims to develop a predictive model utilizing machine learning to classify whether a loan applicant will default based on several input factors. 
-
-# Data Source
-Dataset can be found on Kaggle: https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis/data 
 
 # Tools and Frameworks
 - **Python:** pandas, NumPy
 - **EDA:** pandas, SimpleImputer, matplotlib, seaborn
 - **Machine Learning:** scikit-learn (Logistic Regression, Random Forest, XGBoost)
+  
+# Data Source
+Dataset can be found on Kaggle: https://www.kaggle.com/datasets/nanditapore/credit-risk-analysis/data 
 
 # Dataset Summary
 - There are 32,581 values
